@@ -1,0 +1,620 @@
+@import url('roots.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--default-font-color);
+    overflow-x: hidden;
+    font-family: var(--default-font-family);
+    outline: none;
+    border: none;
+}
+
+*::selection{
+    color: var(--selection-color);
+    background-color: var(--selection-bckg-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    background-color: transparent;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--background);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70vw;
+    gap: 30px;
+    position: relative;
+}
+
+.container .container-image{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+    overflow-x: visible;
+    position: relative;
+    border: solid var(--geral-border-color) 1px;
+    box-shadow: var(--files-box-shadow);
+    border-radius: 5px;
+    margin-bottom: 100px;
+    -webkit-animation: fadeInTop 0.5s both;
+    -o-animation: fadeInTop 0.5s both;
+    -moz-animation: fadeInTop 0.5s both;
+    animation: fadeInTop 0.5s both;
+}
+
+
+.image{
+    width: 90%;
+    height: 100vh;
+    border-radius: 7px;
+    border: solid var(--how-many-bckg) 1px;
+}
+
+.image img, video{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    cursor: pointer;
+    -webkit-animation: fadeInLeft 0.5s both;
+    -o-animation: fadeInLeft 0.5s both;
+    -moz-animation: fadeInLeft 0.5s both;
+    animation: fadeInLeft 0.5s both;
+}
+
+.image img{
+    object-fit: cover;
+}
+
+.input-box{
+    display: flex;
+    max-width: 100%;
+    min-height: 10vh;
+    flex-direction: column;
+    margin-top: 5%;
+    gap: 10px;
+    padding: 0 20px 0 20px;
+}
+
+.input-box input{
+    background-color: var(--background);
+    max-width: 100%;
+    min-height: 4vh;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.input-box input[type='date']{
+    font-size: 9pt;
+}
+
+.input-disabled[type='text']{
+    font-weight: 700;
+    font-size: 18pt;
+    font-family: var(--description-font-family);
+    font-weight: bolder;
+
+}
+
+.input-able[type='text']:focus, .input-able[type='date']:focus{
+    border-bottom: solid var(--input-selected-border) 0.5px;
+    transition: all 0.3s ease;
+}
+
+.input-able[type='text'], .input-able[type='date']{
+    border-bottom: solid var(--geral-border-color) 0.5px;
+}
+
+.subtitle{
+    font-weight: 700;
+    font-size: 11pt;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-animation: fadeInTop 0.3s both;
+    -o-animation: fadeInTop 0.3s both;
+    -moz-animation: fadeInTop 0.3s both;
+    animation: fadeInTop 0.3s both;
+}
+
+.error{
+    color: var(--error-font-color);
+    font-size: 10pt;
+    border: solid var(--background) 1px;
+    max-width: 15vw;
+}
+
+.buttons-box{
+    background-color: var(--background);
+    display: flex;
+    min-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.buttons-box button{
+    font-weight: 700;
+    font-size: 11pt;
+    cursor: pointer;
+    background-color: var(--background);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.button-able{
+    font-weight: 700;
+    font-size: 11pt;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    -webkit-animation: fadeInLeft 0.5s both;
+    -o-animation: fadeInLeft 0.5s both;
+    -moz-animation: fadeInLeft 0.5s both;
+    animation: fadeInLeft 0.5s both;
+}
+
+.button-disabled{
+    display: none;
+}
+
+.buttons-box button i{
+    font-weight: 700;
+    font-size: 12pt;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.buttons-box button{
+    padding: 3% 5%;
+    border-radius: 5px;
+}
+
+.buttons-box button[value='delete']:hover, .buttons-box button[value='cancel']:hover,.buttons-box button[value='yes-btn']:hover {
+    color: #e60000;
+    transition: all 0.3s ease;
+    border: solid #e60000 1px;
+}
+
+.buttons-box button[value='delete'], .buttons-box button[value='cancel'],.buttons-box button[value='yes-btn']{
+    border: solid #e60000 1px;
+}
+
+.buttons-box button[value='update']{
+    border: solid #004fd6 1px;
+}
+.buttons-box button[value='update']:hover{
+    color: #004fd6;
+    transition: all 0.3s ease;
+}
+.buttons-box button[value='save']:hover, .buttons-box button[value='not-btn']:hover{
+    color: #44db1a;
+    transition: all 0.3s ease;
+}
+.buttons-box button[value='save'], .buttons-box button[value='not-btn']{
+    border: solid #44db1a 1px;
+}
+
+.cancel-btn, .save-btn, .yes-btn, .not-btn, .label-active{
+    display: none;
+    background-color: var(--background);
+    -webkit-animation: fadeInLeft 0.5s both;
+    -o-animation: fadeInLeft 0.5s both;
+    -moz-animation: fadeInLeft 0.5s both;
+    animation: fadeInLeft 0.5s both;
+}
+
+.update-picture-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.update-picture-btn input{
+    display: none;
+}
+
+.label-active{
+    border: solid var(--button-border) 1px;
+    width: 60%;
+    color: var(--button-font-color);
+    transition: all 0.2s ease;
+    padding: 4%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    border-radius: 5px;
+    font-size: 10pt;
+    -webkit-animation: fadeInTop 0.3s both;
+    -o-animation: fadeInTop 0.3s both;
+    -moz-animation: fadeInTop 0.3s both;
+    animation: fadeInTop 0.3s both;
+}
+
+.label-active:hover{
+    color: var(--default-font-color);
+    background-color: var(--button-bckg);
+    transition: all 0.3s ease;
+}
+
+.modal-label{
+    border: solid var(--button-border) 1px;
+    width: 90%;
+    color: var(--button-font-color);
+    transition: ease 0.2s;
+    padding: 4%;
+    border-radius: 5px;
+    font-size: 10pt;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    -webkit-animation: fadeInTop 0.3s both;
+    -o-animation: fadeInTop 0.3s both;
+    -moz-animation: fadeInTop 0.3s both;
+    animation: fadeInTop 0.3s both;
+}
+
+.fa-camera{
+    background-color: transparent;
+}
+.search-file:hover{
+    transition: all 0.3s ease;
+    background-color: transparent;
+    color: var(--default-font-color);
+    outline: solid var(--button-border) 1px;
+}
+
+.search-file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color:var(--button-bckg);
+    position: relative;
+    width: 150px;
+    height: 5vh;
+    cursor: pointer;
+    border-radius: 5px;
+    gap: 5px;
+}
+
+.uploaded-name{
+    color: var(--uploaded-file-color);
+    max-width: 100px;
+}
+
+/* MODAL CONFIGS */
+
+#fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fade-bckg-color);
+    z-index: 998;
+    opacity: 80%;
+}
+
+.modal-out{
+    background-color: var(--fade-bckg-color);
+    position: fixed;
+    top: 0;
+    opacity: 70%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: 80%;
+    min-height: 300px;
+    max-height: 95%;
+    padding: 1.5rem;
+    border-radius: 5px;
+    z-index: 999;
+    background-color: var(--background);
+    overflow: auto; 
+}
+
+
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-animation: fadeInTop 0.3s both;
+    -o-animation: fadeInTop 0.3s both;
+    -moz-animation: fadeInTop 0.3s both;
+    animation: fadeInTop 0.3s both;
+}
+
+.modal-input-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-label{
+    min-width: 70%;
+    position: relative;
+}
+
+#modal-header{
+    min-width: 100%;
+    margin-bottom: 20px;
+}
+
+#modal-header h2{
+    font-family: var(--title-font-family);
+    font-weight: 200;
+    font-size: 27pt;
+}
+
+#modal-header #modal-subtitle{
+    color: var(--default-font-color);
+    font-size: 10pt;
+}
+
+.modal-submit-btn, .modal-cancel-btn{
+    padding: 2% 5%;
+    border-radius: 5px;
+}
+
+#modal .buttons-box i{
+    font-size: 10pt;
+    background-color: transparent;
+}
+
+.modal-submit-btn{
+    color: var(--default-font-color);   
+}
+
+.modal-submit-btn{
+    border: solid var(--submit-font-color) 0.5px;
+}
+
+.modal-cancel-btn{
+    border: solid var(--cancel-font-color) 0.5px;
+}
+
+.modal-submit-btn:hover {
+    color: var(--default-font-color);
+    background-color: var(--submit-font-color);
+    transition: all 0.3s ease;
+}
+
+.modal-cancel-btn:hover{
+    color: var(--default-font-color);
+    background-color: var(--cancel-font-color);
+    transition: all 0.3s ease;
+}
+
+.hide{
+    display: none;
+}
+
+#preview-container{
+    position: relative;
+    max-width: 90%;
+    max-height: 10%;
+}
+
+.preview-image{
+    width: 200px;
+    max-width: 90%;
+    height: 300px;
+    max-height: 70%;
+    object-fit: cover;
+}
+
+.preview-video{
+    width: 500px;
+    max-width: 90%;
+    height: 300px;
+    max-height: 70%;
+}
+
+@media screen and (max-width: 1400px){
+    .profile-card{
+        width: 80%;
+        height: 30vh;
+    }
+
+    .nav-active a{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .container .container-image{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        width: 100%;
+        
+    }
+
+    .image{
+        width: 100%;
+        height: 100vh;
+    }
+    
+}
+
+@media screen and (max-width: 1100px){
+    .profile-card{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .nav-active{
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .container .container-image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .image{
+        margin-left: 15%;
+        width: 70%;
+        height: 100vh;
+    }
+
+    .nav-active{
+        width: 40vw;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .profile-card{
+        flex-direction: column;
+        height: 50vh;
+        padding: 0;
+    }
+
+    .profile-card-photo{
+        border: none;
+        border-bottom: solid var(--content-color) 1px;
+    }
+
+    .profile-card-photo img{
+        width: 70px;
+        height: 70px;
+    
+    }
+    .search-container.search-active{
+        width: 350px;
+        border-radius: 10px;
+    }
+
+    .search-title-box{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px
+    }
+}
+
+@media screen and (max-width: 700px){
+    .nav-active{
+        width: 70vw;
+    }
+
+    .nav-active a{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .image{
+        width: 90%;
+        height: 100vh;
+        margin-left: 5%;
+
+    }
+
+    .container{
+        overflow-x: visible;
+        width: 95vw;
+    }
+
+    .container .container-image{
+        width: 100%;
+    }
+
+    .profile-card{
+        width: 100%;
+    }
+    
+    .search-container.search-active{
+        width: 300px;
+    }
+
+    .search-container .wipe-search-icon i{
+        margin-left: 20px;
+    }
+
+    header h1{
+        gap: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 360px){
+    
+    .user-photo img{
+        margin-left: 10px;
+        width: 60px;
+        height: 60px;
+    }
+
+    header h1{
+        gap: 5px;
+    }
+
+    .header-title{
+        font-size: 25pt;
+    }
+
+}
