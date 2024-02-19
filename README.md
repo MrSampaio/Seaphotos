@@ -5,7 +5,7 @@
 
 Uma galeria de fotos e vídeos virtual com sistema CRUD das mídias e dos perfis cadastrados no banco de dados.
 
-## Tecnologias
+## Tecnologias 💻
 
 As tecnologias e linguagens utilizadas durante o desenvolvimento deste projeto, foram:
 
@@ -16,13 +16,24 @@ As tecnologias e linguagens utilizadas durante o desenvolvimento deste projeto, 
 * HTML
 * CSS
 
-### Serviços usados
+### Serviços usados ☁️
 
 * Font Awesome
 
-## Como o site funciona?
+## Como o site funciona? 🤔
 
-1- Ao entrar no site, você verá a página index, a galeria que reúne imagens de todos os usuários
+### 1 - Index
+#### Ao entrar no site, você verá a index, a galeria que reúne imagens de todos os usuários
+
+![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/ba308de0-fbd2-4f17-a1a2-5ad215f37954)
+
+#### Nela, pode-se visualizar o título da mídia, a data imposta pelo usuário e o nome do usuário que a enviou
+![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/e98bbae5-ab05-4e99-a4ba-57d2a410d140)
+
+
+
+
+
 
 
 
