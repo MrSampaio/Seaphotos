@@ -25,7 +25,7 @@ As tecnologias e linguagens utilizadas durante o desenvolvimento deste projeto, 
 ### 1 - Index
 #### Ao entrar no site, você verá a index, a galeria que reúne imagens de todos os usuários
 
-![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/ba308de0-fbd2-4f17-a1a2-5ad215f37954)
+![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/de57ac98-103e-42c8-96c1-fee8198a32b5)
 
 #### Nela, pode-se visualizar o título da mídia, a data imposta pelo usuário e o nome do usuário que a enviou
 ![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/45a84406-ac8b-4f42-9fc7-87d9d291beb0)
