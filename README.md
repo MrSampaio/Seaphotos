@@ -27,8 +27,12 @@ As tecnologias e linguagens utilizadas durante o desenvolvimento deste projeto, 
 
 ![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/de57ac98-103e-42c8-96c1-fee8198a32b5)
 
-#### Nela, pode-se visualizar o título da mídia, a data imposta pelo usuário e o nome do usuário que a enviou
+#### Nela, pode-se visualizar o título da mídia, a data imposta pelo usuário(opcional) e o nome do usuário que a enviou
 ![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/45a84406-ac8b-4f42-9fc7-87d9d291beb0)
+
+####
+
+![SEAPHOTOS-Brave-2024-02-18-23-31-29](https://github.com/MrSampaio/Seaphotos/assets/118141328/0c424843-a519-490f-bce5-fe0eeada19a1)
 
 
 
