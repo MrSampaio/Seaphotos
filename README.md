@@ -30,9 +30,18 @@ As tecnologias e linguagens utilizadas durante o desenvolvimento deste projeto, 
 #### Nela, pode-se visualizar o título da mídia, a data imposta pelo usuário(opcional) e o nome do usuário que a enviou
 ![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/45a84406-ac8b-4f42-9fc7-87d9d291beb0)
 
-####
+#### Além disso, ao clicar na lupa acima, pode ser feita a pesquisa de alguma mídia baseada no título
+https://github.com/MrSampaio/Seaphotos/assets/118141328/7ca2969e-75b2-4c2a-9107-53f4d119cfcc
 
-![SEAPHOTOS-Brave-2024-02-18-23-31-29](https://github.com/MrSampaio/Seaphotos/assets/118141328/0c424843-a519-490f-bce5-fe0eeada19a1)
+#### Ao observar o canto superior direito, notamos que há uma imagem de perfil "default", o que indica que o usuário não está logado.
+#### Porém, ao clicar no menu lateral, temos acesso ao login e cadastro de usuários
+https://github.com/MrSampaio/Seaphotos/assets/118141328/a0ea8c2b-cb95-40a1-8c80-badb20b2ebc8
+
+
+
+
+
+
 
 
 
