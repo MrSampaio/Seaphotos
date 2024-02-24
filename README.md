@@ -34,8 +34,13 @@ As tecnologias e linguagens utilizadas durante o desenvolvimento deste projeto, 
 https://github.com/MrSampaio/Seaphotos/assets/118141328/7ca2969e-75b2-4c2a-9107-53f4d119cfcc
 
 #### Ao observar o canto superior direito, notamos que há uma imagem de perfil "default", o que indica que o usuário não está logado.
-#### Porém, ao clicar no menu lateral, temos acesso ao login e cadastro de usuários
+#### Porém, ao clicar no menu lateral, temos acesso ao login e cadastro de usuários, além de diversas abas que necessitam de login para serem acessadas.
 https://github.com/MrSampaio/Seaphotos/assets/118141328/a0ea8c2b-cb95-40a1-8c80-badb20b2ebc8
+
+### 1 - Login
+
+
+
 
 
 
