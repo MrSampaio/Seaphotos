@@ -25,10 +25,10 @@ As tecnologias e linguagens utilizadas durante o desenvolvimento deste projeto, 
 ### 1 - Index 📷
 
 Ao entrar no site, você verá a index, a galeria que reúne imagens de todos os usuários
-![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/de57ac98-103e-42c8-96c1-fee8198a32b5)
+![index](https://github.com/MrSampaio/Seaphotos/assets/118141328/de57ac98-103e-42c8-96c1-fee8198a32b5)
 
 Nela, pode-se visualizar o título da mídia, a data imposta pelo usuário(opcional) e o nome do usuário que a enviou
-![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/45a84406-ac8b-4f42-9fc7-87d9d291beb0)
+![index](https://github.com/MrSampaio/Seaphotos/assets/118141328/45a84406-ac8b-4f42-9fc7-87d9d291beb0)
 
 Além disso, ao clicar na lupa acima, pode ser feita a pesquisa de alguma mídia baseada no título
 
@@ -42,10 +42,12 @@ https://github.com/MrSampaio/Seaphotos/assets/118141328/a0ea8c2b-cb95-40a1-8c80-
 ### 2 - Login 🔐
 
 Ao clicar no login pelo menu, em alguma outra aba privada ou na foto de perfil no canto superior direito, teremos acesso à página de login
-<!-- Vídeo da login page aqui -->
+
+https://github.com/MrSampaio/Seaphotos/assets/118141328/d3a755ef-7443-4aea-a001-6d9cfa03a8db
 
 O login necessita de dois fatores: email e senha, sujos quais foram cadastrador pelo usuário. Basta preencher os campos e clicar no botão
 <!-- Vídeo do sistema de login aqui -->
+
 
 ### 3 - Cadastro ➕
 
@@ -54,7 +56,8 @@ Através do menu de navegação ou da página de login, pode-se acessar a págin
 
 Para se cadastrar, são necessárias informações básicas: nome e sobrenome, email e senha.
 Após tais dados serem preenchidos, o usuário será imediatamente redirecionado para a aba de perfil privado.
-<!-- Vídeo do sistema da cad page aqui -->
+
+Uploading SEAPHOTOS cadastro - Brave 2024-02-25 20-32-57.mp4…
 
 ### 4 - Perfil de usuário ⚙️
 
