@@ -63,7 +63,8 @@ https://github.com/MrSampaio/Seaphotos/assets/118141328/a1c957bf-6542-4c55-8a72-
 ### 4 - Perfil de usuário ⚙️
 
 Podendo ser acessada pelo sucesso no login ou cadastro, a página de perfil de usuário é uma página voltada para o controle dos dados do usuário por ele mesmo
-![profile](https://github.com/MrSampaio/Seaphotos/assets/118141328/2db37b15-9976-43cd-8cf6-f626bf6a407a)
+![profile](https://github.com/MrSampaio/Seaphotos/assets/118141328/4e4cf979-7f07-4cfc-9293-bf5dd299e9eb)
+
 
 
 
