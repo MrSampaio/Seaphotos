@@ -46,8 +46,8 @@ Ao clicar no login pelo menu, em alguma outra aba privada ou na foto de perfil n
 https://github.com/MrSampaio/Seaphotos/assets/118141328/d3a755ef-7443-4aea-a001-6d9cfa03a8db
 
 O login necessita de dois fatores: email e senha, sujos quais foram cadastrador pelo usuário. Basta preencher os campos e clicar no botão
-<!-- Vídeo do sistema de login aqui -->
 
+https://github.com/MrSampaio/Seaphotos/assets/118141328/8ce673a5-9801-47e5-91a9-7cf839f65b82
 
 ### 3 - Cadastro ➕
 
@@ -57,7 +57,13 @@ Através do menu de navegação ou da página de login, pode-se acessar a págin
 Para se cadastrar, são necessárias informações básicas: nome e sobrenome, email e senha.
 Após tais dados serem preenchidos, o usuário será imediatamente redirecionado para a aba de perfil privado.
 
-Uploading SEAPHOTOS cadastro - Brave 2024-02-25 20-32-57.mp4…
+https://github.com/MrSampaio/Seaphotos/assets/118141328/a1c957bf-6542-4c55-8a72-7e0b48d0891f
+
+
+
+
+
+
 
 ### 4 - Perfil de usuário ⚙️
 
