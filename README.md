@@ -52,17 +52,13 @@ https://github.com/MrSampaio/Seaphotos/assets/118141328/8ce673a5-9801-47e5-91a9-
 ### 3 - Cadastro ➕
 
 Através do menu de navegação ou da página de login, pode-se acessar a página de cadastro
-<!-- Vídeo da cad page aqui -->
+
+https://github.com/MrSampaio/Seaphotos/assets/118141328/82966b71-8071-4cb0-8ce3-6cd82d0b8861
 
 Para se cadastrar, são necessárias informações básicas: nome e sobrenome, email e senha.
 Após tais dados serem preenchidos, o usuário será imediatamente redirecionado para a aba de perfil privado.
 
 https://github.com/MrSampaio/Seaphotos/assets/118141328/a1c957bf-6542-4c55-8a72-7e0b48d0891f
-
-
-
-
-
 
 
 ### 4 - Perfil de usuário ⚙️
