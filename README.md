@@ -84,6 +84,8 @@ https://github.com/MrSampaio/Seaphotos/assets/118141328/4e2d888d-7336-498b-a5b3-
 
 ### 6 - Meus arquivos 🖼️
 
+Através da caixa de sucesso após adicionar a mídia ou pelo menu lateral, pode-se ter acesso à página de controle de mídias enviadas
+
 
 
 
