@@ -74,6 +74,13 @@ https://github.com/MrSampaio/Seaphotos/assets/118141328/af7ad7b2-c2df-41d6-a81d-
 Seguindo pelo menu lateral, teremos acesso a área de adicionar mídias
 ![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/fafbb0ab-c75d-4081-b7cf-6514501058f6)
 
+Para utilizá-la, basta digitar o número de campos para imposição de mídia de que deseja, e, então, eles serão renderizados abaixo
+
+https://github.com/MrSampaio/Seaphotos/assets/118141328/ad54af88-26fc-45ab-92de-c1fb039ed9b3
+
+Então, basta enviar a mídia e colocar uma descrição e uma data que desejar
+
+
 
 
 
