@@ -65,6 +65,11 @@ https://github.com/MrSampaio/Seaphotos/assets/118141328/a1c957bf-6542-4c55-8a72-
 Podendo ser acessada pelo sucesso no login ou cadastro, a página de perfil de usuário é uma página voltada para o controle dos dados do usuário por ele mesmo
 ![profile](https://github.com/MrSampaio/Seaphotos/assets/118141328/4e4cf979-7f07-4cfc-9293-bf5dd299e9eb)
 
+Para alterar os dados, basta clicar no botão "Alterar Informações e os campos serão liberados.
+
+https://github.com/MrSampaio/Seaphotos/assets/118141328/af7ad7b2-c2df-41d6-a81d-f883b9b42e44
+
+
 
 
 
