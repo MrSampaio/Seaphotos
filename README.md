@@ -71,6 +71,10 @@ https://github.com/MrSampaio/Seaphotos/assets/118141328/af7ad7b2-c2df-41d6-a81d-
 
 ### 5 - Adicionar mídias 🎞️
 
+Seguindo pelo menu lateral, teremos acesso a área de adicionar mídias
+![image](https://github.com/MrSampaio/Seaphotos/assets/118141328/fafbb0ab-c75d-4081-b7cf-6514501058f6)
+
+
 
 
 
