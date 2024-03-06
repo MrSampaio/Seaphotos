@@ -69,6 +69,8 @@ Para alterar os dados, basta clicar no botão "Alterar Informações e os campos
 
 https://github.com/MrSampaio/Seaphotos/assets/118141328/af7ad7b2-c2df-41d6-a81d-f883b9b42e44
 
+### 5 - Adicionar mídias 🎞️
+
 
 
 
