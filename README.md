@@ -82,6 +82,8 @@ Então, basta enviar a mídia e colocar uma descrição e uma data que desejar
 
 https://github.com/MrSampaio/Seaphotos/assets/118141328/4e2d888d-7336-498b-a5b3-eef1ba3729f4
 
+### 6 - Meus arquivos 🖼️
+
 
 
 
