@@ -84,7 +84,7 @@ if(isset($_SESSION['logged']) && $_SESSION['logged'] != false){
         } else if($button == 'remove' && $data['path_picture'] != '../files/users/default.jpg'){
 
             // query uptade para setar path com imagem default
-            $updateToDefault = mysqli_query($mysqli, "UPDATE `files_upload`.`users_infos` SET path_picture = '../files/users/default.jpg'");
+            $updateToDefault = mysqli_query($mysqli, "UPDATE `files_upload`.`users_infos` SET path_picture = '../files/users/default.jpg' WHERE id_user = '$user_id'");
 
             // caso haja erro, atribui erro na variável em sessão
             if(!$updateToDefault){
